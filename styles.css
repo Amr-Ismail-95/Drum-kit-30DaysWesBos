@@ -12,4 +12,32 @@
     height: 100vh;
     background: url(cover.png);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keys {
+    width: 70%;
+    height: 10rem;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.key {
+    width: 10%;
+    height: 100%;
+    border: 0.25rem solid blue;
+    border-radius: 0.3rem;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.key-char{
+    font-size: 5rem;
 }
