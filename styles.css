@@ -36,8 +36,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 0.3s ease;
 }
 
 .key-char{
     font-size: 5rem;
+}
+
+.striked{
+    box-shadow:rgb(255, 217, 19) 0px 0px 0px 0.3rem, rgb(255, 217, 19) 0px 20px 30px -10px;;
+    /* border-color: yellow; */
 }
