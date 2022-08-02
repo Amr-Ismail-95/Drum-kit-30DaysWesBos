@@ -10,7 +10,7 @@
 
 .main{
     height: 100vh;
-    background: url(cover.png);
+    background: url(cover.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
